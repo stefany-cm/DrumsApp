@@ -1,5 +1,6 @@
 import 'package:drumsapp/src/utils/colors_utils.dart';
 import 'package:drumsapp/src/widgets/customAppBar.dart';
+import 'package:drumsapp/src/widgets/formLogin.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -25,6 +26,7 @@ class _LoginPageState extends State<LoginPage> {
                 height: MediaQuery.of(context).size.height,
                 child: Column(children: <Widget>[
                   customAppBar('Inicio de sesión', context),
+                  FormLogin()
                 ]))));
   }
 }
