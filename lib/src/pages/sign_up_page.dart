@@ -1,5 +1,6 @@
 import 'package:drumsapp/src/utils/colors_utils.dart';
 import 'package:drumsapp/src/widgets/buttons.dart';
+import 'package:drumsapp/src/widgets/customAppBar.dart';
 import 'package:drumsapp/src/widgets/formSignUp.dart';
 import 'package:drumsapp/src/widgets/logo.dart';
 import 'package:drumsapp/src/widgets/titles.dart';
@@ -26,17 +27,7 @@ class _SignUpPageState extends State<SignUpPage> {
         height: MediaQuery.of(context).size.height,
         child: Column(
           children: <Widget>[
-            Container(
-                decoration: BoxDecoration(gradient: blueLinearGColor),
-                child: Column(
-                  children: <Widget>[
-                    backIconButton(context),
-                    logoSize(context, 1, 0.2),
-                    SizedBox(height: 15.0),
-                    title3('Registro', TextAlign.center),
-                    SizedBox(height: 15.0)
-                  ],
-                )),
+            customAppBar('Registro', context),
             FormSignUp(),
           ],
         ),
