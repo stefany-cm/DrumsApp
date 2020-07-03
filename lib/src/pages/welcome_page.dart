@@ -25,9 +25,11 @@ class WelcomePage extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           children: <Widget>[
             title1('¡Bienvenido!', TextAlign.center),
-            title2('Aprenderás a tocar la batería desde tu casa', TextAlign.center),
+            title2('Aprenderás a tocar la batería desde tu casa',
+                TextAlign.center),
             logo(context),
-            boderButton('Comenzar', Colors.white, Colors.black, blue2Color, context, WelcomeMenuPage()),
+            boderButton('Comenzar', Colors.white, Colors.black, blue2Color,
+                context, WelcomeMenuPage()),
           ],
         ),
       ),
