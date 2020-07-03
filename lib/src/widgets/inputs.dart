@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-TextFormField inputMail(bool focus){
+TextFormField inputMail(bool focus) {
   return TextFormField(
     keyboardType: TextInputType.emailAddress,
     decoration: const InputDecoration(
@@ -9,7 +9,6 @@ TextFormField inputMail(bool focus){
     ),
     validator: mailValidation,
     autofocus: focus,
-    
   );
 }
 
@@ -26,7 +25,8 @@ TextFormField inputPassword(TextEditingController passwordControler) {
   );
 }
 
-TextFormField inputConfirmationPassword(TextEditingController passwordControler) {
+TextFormField inputConfirmationPassword(
+    TextEditingController passwordControler) {
   return TextFormField(
     obscureText: true,
     decoration: const InputDecoration(
