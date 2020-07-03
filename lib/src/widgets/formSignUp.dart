@@ -1,5 +1,4 @@
 import 'package:drumsapp/src/pages/login_page.dart';
-import 'package:drumsapp/src/pages/sign_up_page.dart';
 import 'package:drumsapp/src/utils/colors_utils.dart';
 import 'package:drumsapp/src/widgets/inputs.dart';
 import 'package:drumsapp/src/widgets/buttons.dart';
@@ -10,7 +9,7 @@ class FormSignUp extends StatefulWidget {
   _FormSignUpState createState() => _FormSignUpState();
 }
 
-class _FormSignUpState extends State<SignUpPage> {
+class _FormSignUpState extends State<FormSignUp> {
   final TextEditingController passwordControler = new TextEditingController();
 
   @override

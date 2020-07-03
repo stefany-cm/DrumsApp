@@ -44,20 +44,3 @@ class _SignUpPageState extends State<SignUpPage> {
     );
   }
 }
-/*body: SingleChildScrollView(
-          child: Container(
-        decoration: BoxDecoration(gradient: blueLinearGColor),
-        child: Padding(
-          padding: const EdgeInsets.all(8.0),
-          child: Column(
-            children: <Widget>[
-              logo(context),
-              title3('Registro', TextAlign.center),
-              FormSignUp(),
-            ],
-          ),
-        ),
-      )),
-    );
-  }
-}*/
